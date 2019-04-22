@@ -7,7 +7,7 @@ class Project extends Model {
     return this.belongsTo('App/Models/User')
   }
 
-  taks () {
+  tasks () {
     return this.hasMany('App/Models/Task')
   }
 }
